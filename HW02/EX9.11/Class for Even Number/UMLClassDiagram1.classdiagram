@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="30124fb8-eb77-4a5c-97ed-fe4c58c40191" name="UMLClassDiagram1" linkedPackageId="73a6d556-7c07-458d-bb73-72b0e0b16877" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="605ac1d1-7b70-44a2-af02-143353da7fc4">
+      <profileInstance Id="2df74c13-7054-4aa3-8faa-e5192b2d7ab5" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="49cb5219-26eb-487c-8884-8fafd396f7e8">
+      <profileInstance Id="a65d8abf-8c46-4000-864a-6b60b00a8915" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="70b69df4-1cc5-4db7-9f61-f8dd6e1460ee" name="Even Number" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="60b933cb-d724-4caa-b8ba-9f3c345da90e" />
+        <ownedAttributesInternal>
+          <property Id="f801100b-6c62-4041-a088-c0fbca080ad0" name="int value" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c0486c19-7d72-4416-9121-924eca2eb318" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b7f46d18-bb9d-4c83-bedb-756737e5a44c" name="getValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="46dd338e-d010-4bad-81d9-24be172c95e2" />
+          </operation>
+          <operation Id="30537c96-cb84-44c8-880d-2e92c60f1c01" name="getNext" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="afdf416c-0b3d-417d-8741-83250dfe35c6" />
+          </operation>
+          <operation Id="b494d5d9-432d-44e1-be07-2d1d74ff6d16" name="getPrevious" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ac1013cd-2603-41da-bec7-7bd727ea75ca" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="73a6d556-7c07-458d-bb73-72b0e0b16877" name="Class for Even Number">
+    <elementDefinition Id="f6850df6-96e6-4627-bcc8-3a5a67e4a65c" />
+  </package>
+</logicalClassDesignerModel>

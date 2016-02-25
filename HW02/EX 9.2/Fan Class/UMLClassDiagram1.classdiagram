@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="a9aa6ef6-9fef-4fdd-9c9d-0324092b31cd" name="UMLClassDiagram1" linkedPackageId="e060ee2c-e93f-4f1d-a7a7-35923f561ad1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="3da6d32a-d8b8-4d4b-886e-9dce7e100320">
+      <profileInstance Id="fec9145c-732d-4654-9f1e-7da4d4ffee42" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="20c12037-b7c5-475d-a364-fa4045101a87">
+      <profileInstance Id="1ce3b608-f1ad-4e89-9c60-547fd73ae25c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6ec89215-683d-46f9-b372-93d8e23139eb" name="Fan" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1c9c2982-7fd9-4c86-848c-e40318134db9" />
+        <ownedAttributesInternal>
+          <property Id="56982f28-f754-49ac-8ae8-15d62c8c1eab" name="Radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="def43ba9-2037-45e0-bad8-f1c7b8db8d8b" />
+          </property>
+          <property Id="79e099ba-4dc9-4d40-9f70-4a9f9b37665f" name="On/Off" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f305f46c-2a22-4e76-84e9-974710312a76" />
+          </property>
+          <property Id="91a863ba-593a-46b3-893c-0efeff1d5b5a" name="Speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b795df4b-0fc6-4f00-8c57-5234f270b1db" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="03907e1b-5f11-42a6-a09f-ff9688cb4eb5" name="getRadius" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6326af01-f8b8-4432-a0ff-ddac77fa1651" />
+          </operation>
+          <operation Id="64ca9c84-ded4-4ff1-9df3-dfec4b9e5de1" name="getSpeed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2e23fce4-aed6-46fc-a8c9-5753282bbe5f" />
+          </operation>
+          <operation Id="fac8681c-60c2-4ea8-a603-2425e095f7ba" name="getOn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d759b685-4ef6-4f0d-a1d1-6df10622733f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="e060ee2c-e93f-4f1d-a7a7-35923f561ad1" name="Fan Class">
+    <elementDefinition Id="7043b8fc-2983-422b-84f1-b55e2834fde6" />
+  </package>
+</logicalClassDesignerModel>
