@@ -8,7 +8,7 @@ class Fan
 {
 public:
 	double radius; //radius of fan
-	bool on; //determine whether fan is on or off
+	bool on; //determine whether fan is on or off      /* ---Joseph--- These should be private (-1) */
 	int speed; //speed of fan
 
 	Fan()//default values

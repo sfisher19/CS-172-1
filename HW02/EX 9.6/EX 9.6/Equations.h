@@ -8,7 +8,7 @@ class QuadraticEquations
 {
 public:
 	double a;
-	double b;
+	double b;																					/* ---Joseph--- These should be private (-1) */
 	double c;
 	double discriminant;
 	//Made everyting a double so everything could be mathematically processed.
