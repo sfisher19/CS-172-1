@@ -1,0 +1,23 @@
+﻿Build started 3/3/2016 7:13:14 PM.
+     1>Project "Z:\CS 172\Exam #1\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Event.cpp Main.cpp Venue.cpp
+         Venue.cpp
+     1>z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(21): warning C4930: 'Event setTime(int)': prototyped function not called (was a variable definition intended?)
+     1>z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(22): warning C4930: 'Event setTitle(std::string)': prototyped function not called (was a variable definition intended?)
+     1>z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(31): error C2440: 'return': cannot convert from 'int' to 'Event'
+         z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(31): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(37): error C2440: 'return': cannot convert from 'std::string' to 'Event'
+         z:\cs 172\exam #1\consoleapplication1\consoleapplication1\venue.cpp(37): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+         Event.cpp
+     1>z:\cs 172\exam #1\consoleapplication1\consoleapplication1\event.cpp(27): error C2084: function 'Event::Event(void)' already has a body
+         z:\cs 172\exam #1\consoleapplication1\consoleapplication1\event.cpp(14): note: see previous definition of '{ctor}'
+         Generating Code...
+         Compiling...
+         Main.cpp
+         Generating Code...
+     1>Done Building Project "Z:\CS 172\Exam #1\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.02
