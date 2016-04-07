@@ -1,0 +1,13 @@
+﻿Build started 4/6/2016 9:59:04 PM.
+     1>Project "Z:\CS 172\HW 5\EX 11.13\EX 11.13\EX 11.13.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Course.cpp TestCourse.cpp
+         TestCourse.cpp
+     1>z:\cs 172\hw 5\ex 11.13\ex 11.13\testcourse.cpp(25): error C3867: 'Course::getNumberOfStudents': non-standard syntax; use '&' to create a pointer to member
+         Course.cpp
+         Generating Code...
+     1>Done Building Project "Z:\CS 172\HW 5\EX 11.13\EX 11.13\EX 11.13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.39

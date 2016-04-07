@@ -1,0 +1,45 @@
+﻿Build started 4/6/2016 7:21:53 PM.
+     1>Project "Z:\CS 172\HW 5\EX 11.9\EX 11.9\EX 11.9.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Shapes.cpp
+         Shapes.cpp
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(45): error C2535: 'void Rectangle2D::setX(double)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(12): note: see declaration of 'Rectangle2D::setX'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(51): error C2535: 'void Rectangle2D::setY(double)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(13): note: see declaration of 'Rectangle2D::setY'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(57): error C2535: 'double Rectangle2D::getX(void)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(14): note: see declaration of 'Rectangle2D::getX'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(63): error C2535: 'double Rectangle2D::getY(void)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(15): note: see declaration of 'Rectangle2D::getY'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(69): error C2535: 'void Rectangle2D::setWidth(double)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(17): note: see declaration of 'Rectangle2D::setWidth'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(75): error C2535: 'void Rectangle2D::setHeight(double)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(18): note: see declaration of 'Rectangle2D::setHeight'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(81): error C2535: 'double Rectangle2D::getWidth(void)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(19): note: see declaration of 'Rectangle2D::getWidth'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(87): error C2535: 'double Rectangle2D::getHeight(void)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(20): note: see declaration of 'Rectangle2D::getHeight'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(110): error C2535: 'const bool Rectangle2D::contains(double,double)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(21): note: see declaration of 'Rectangle2D::contains'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(123): error C2535: 'const bool Rectangle2D::contains(const Rectangle2D &)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(22): note: see declaration of 'Rectangle2D::contains'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(131): error C2535: 'const bool Rectangle2D::overlap(const Rectangle2D &)': member function already defined or declared
+         z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(23): note: see declaration of 'Rectangle2D::overlap'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\shapes.cpp(9): error C2143: syntax error: missing ';' before 'using namespace'
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(46): error C2065: 'X': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(52): error C2065: 'Y': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(58): error C2065: 'X': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(64): error C2065: 'Y': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(70): error C2065: 'Width': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(76): error C2065: 'Height': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(82): error C2065: 'Width': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(88): error C2065: 'Height': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(94): error C2065: 'Width': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(94): error C2065: 'Height': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(101): error C2065: 'Width': undeclared identifier
+     1>z:\cs 172\hw 5\ex 11.9\ex 11.9\rectangle2d.h(101): error C2065: 'Height': undeclared identifier
+     1>Done Building Project "Z:\CS 172\HW 5\EX 11.9\EX 11.9\EX 11.9.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.98

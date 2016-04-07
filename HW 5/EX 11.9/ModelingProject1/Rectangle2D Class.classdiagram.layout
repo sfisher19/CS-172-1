@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Rectangle2D Class">
+  <logicalClassDesignerModelMoniker Id="96e4fa62-42a0-46e3-889f-2ef863fb43e4" />
+  <nestedChildShapes>
+    <classShape Id="e47ecb54-1283-434e-a11e-c9a47487402a" absoluteBounds="2.75, 1.25, 1.5, 3.7851561456918716" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="dcc5d3d9-d65d-4a7c-b6f0-83a3b7d09df9" LastKnownName="Class1" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="38f9fa84-3496-49b6-8c6d-bd656c250a15" absoluteBounds="2.765, 1.6400000000000001, 1.4700000000000002, 1.162109337747097" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="e1dcc5df-5dec-4cef-918f-e42465ffc5c9" absoluteBounds="2.765, 2.8121093377470974, 1.4700000000000002, 2.1230468079447746" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
