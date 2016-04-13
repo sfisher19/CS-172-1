@@ -1,0 +1,19 @@
+﻿Build started 4/12/2016 5:36:49 PM.
+     1>Project "C:\Users\jflinn18\Documents\GitHub\sfisher19\CS-172-1\HW 5\EX 11.13\EX 11.13\EX 11.13.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Course.cpp TestCourse.cpp
+         TestCourse.cpp
+     1>c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\testcourse.cpp(25): error C3867: 'Course::getNumberOfStudents': non-standard syntax; use '&' to create a pointer to member
+         Course.cpp
+     1>c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(37): error C2059: syntax error: ';'
+     1>c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(56): error C2082: redefinition of formal parameter 'list'
+     1>c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(60): error C2440: '=': cannot convert from 'const int' to 'const int *'
+         c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(60): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(63): error C2440: 'return': cannot convert from 'const int *' to 'int'
+         c:\users\jflinn18\documents\github\sfisher19\cs-172-1\hw 5\ex 11.13\ex 11.13\course.cpp(63): note: There is no context in which this conversion is possible
+         Generating Code...
+     1>Done Building Project "C:\Users\jflinn18\Documents\GitHub\sfisher19\CS-172-1\HW 5\EX 11.13\EX 11.13\EX 11.13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.76

@@ -1,0 +1,8 @@
+EX05_01: 
+EX05_02: -5 double capacity doesn't work like this. There can't be two things names the same thing.
+EX05_03: 
+EX05_04: -10 The functions weren't implemented. There were weird variable usages (Width & Height) when they should have been (width & height)
+EX05_05: -10 Doesn't compile, incorrect syntax for removing students. Doesn't handle cases where there is no more room left. 
+
+
+Notes: 
