@@ -9,7 +9,7 @@
 using namespace std;
 
 
-int main()
+int main()     // Joseph: Didn't implement the vector class. See your textbook for an example of an implementation of the stack. It is pretty much that code exactly.
 {
 	vector<int> vectorOne;//First vector of type int
 	vector<int> vectorOne(5);//Defining an int vector with initial size 5 elements
